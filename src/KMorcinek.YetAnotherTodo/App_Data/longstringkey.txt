@@ -1,0 +1,3 @@
+2014-04-26 09:49:17|DEBUG|7|RaptorDB.KeyStore`1|| Current Count = 0
+2014-04-26 09:49:17|DEBUG|7|RaptorDB.KeyStore`1|| Checking Index state...
+2014-04-26 09:49:17|DEBUG|7|RaptorDB.KeyStore`1|| Starting save timer

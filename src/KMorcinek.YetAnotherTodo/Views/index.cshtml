@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<string>
+
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,5 +17,6 @@
 <body>
 	<img src="~/Content/nancy-logo.png" alt="Nancy logo" /><br />
 	This view was rendered using the Nancy Razor view engine
+    Hero: @Model end
 </body>
 </html>

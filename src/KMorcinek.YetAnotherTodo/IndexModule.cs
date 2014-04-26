@@ -8,7 +8,8 @@
         {
             Get["/"] = parameters =>
             {
-                return View["index"];
+                var text = new Model().GetData();
+                return View["index", text];
             };
         }
     }
